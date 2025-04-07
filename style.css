@@ -432,3 +432,14 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* Blog Section */
+#blogs {
+  position: relative;
+}
+
+.blog-img {
+  border-radius: 2rem;
+  width: 15%;
+  height: 15%;
+}
