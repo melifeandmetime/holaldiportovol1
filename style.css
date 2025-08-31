@@ -477,3 +477,58 @@ footer p {
 .blog-desc {
   margin-bottom: 10px; /* bisa disesuaikan */
 }
+
+.blog-body {
+  font-family: "Plus Jakarta Sans", serif;
+  display: flex;
+  justify-content: justify;
+  padding: 20px;
+}
+
+.blog-post {
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* jarak antar elemen */
+  line-height: 1.8;   /* jarak antar baris biar lega */
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.blog-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.blog-date {
+  color: gray;
+  font-style: italic;
+}
+
+.blog-post-img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 8px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.blog-content {
+  max-width: 1200px;  /* lebih lebar dari 900px */
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+  line-height: 1.8;
+  font-size: 1rem;
+  color: black;
+}
+
+.blog-post a {
+  display: block;      /* bikin link jadi blok penuh baris */
+  text-align: left;    /* teks rata kiri */
+  margin-bottom: 15px; /* kasih jarak dengan judul */
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
