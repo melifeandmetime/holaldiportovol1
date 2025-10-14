@@ -441,6 +441,12 @@ article .icon {
   height: 2.5rem;
 }
 
+.email-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* FOOTER SECTION */
 
 footer {
