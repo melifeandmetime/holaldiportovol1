@@ -447,6 +447,31 @@ article .icon {
   align-items: center;
 }
 
+.phone-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linkedin-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 600px){
+  .contact-info-upper-container{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+  .contact-info-container{
+    flex-direction:column;
+    gap: 8px;
+  }
+}
+
 /* FOOTER SECTION */
 
 footer {
